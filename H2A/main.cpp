@@ -2,10 +2,9 @@
 #include "car.h"
 #include "rectangle.h"
 #include "student.h"
-#include <memory> // Smart pointers
+#include <memory>
 
 int main() {
-    // Vaihe 1: Car-luokka
     Car car;
     car.setBrand("Volvo");
     car.setModel("XC60");
@@ -14,7 +13,6 @@ int main() {
 
     std::cout << "\n";
 
-    // Vaihe 2: Rectangle-luokka
     Rectangle* rect = new Rectangle();
     rect->setWidth(5.0);
     rect->setHeight(10.0);
@@ -24,7 +22,6 @@ int main() {
 
     std::cout << "\n";
 
-    // Vaihe 3: Student-luokka
     auto student = std::make_unique<Student>();
     student->setName("Jari Litmanen");
     student->setStudentNumber(12345);

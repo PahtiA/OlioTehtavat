@@ -7,11 +7,11 @@ private:
     double height;
 
 public:
-    // Setterit
+
     void setWidth(double width);
     void setHeight(double height);
 
-    // Getterit
+
     double getArea() const;
     double getCircum() const;
 };
