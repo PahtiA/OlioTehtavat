@@ -5,7 +5,6 @@ CONFIG -= qt
 
 SOURCES += \
         AggregationA.cpp \
-        AggregationA.cpp \
         AssosiationA.cpp \
         ClassB.cpp \
         main.cpp
